@@ -1,14 +1,18 @@
+<?php 
+$path = dirname(dirname(__FILE__));
+$path .= DIRECTORY_SEPARATOR.'assets'.DIRECTORY_SEPARATOR.'css'.DIRECTORY_SEPARATOR.'main.php';
+echo $path; 
+ ?>
+
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-     <link rel="stylesheet" href="assets/css/main.css">
+     <link rel="stylesheet" href="<?php echo $path; ?>">
     <title>Me Audota! :P</title>
   </head>
   <body>
@@ -33,11 +37,11 @@
                     <a class="nav-link" href="#">Criar Conta</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link" href="#">Entrar</a>
+                    <a class="nav-link" href="users/login.php">Entrar</a>
                   </li>       
               </ul>
           </div>
         </div>
       </nav>
     </header>
-   
+  

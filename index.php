@@ -73,8 +73,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							    <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
+							   <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -85,8 +85,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							    <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
+							    <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -97,8 +97,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							     <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
+							     <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -111,9 +111,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							    <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
-							    <span><svg class="bi bi-alert-triangle text-success" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"></svg></span>
+							    <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -124,8 +123,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							    <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
+							    <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -136,8 +135,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							     <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
+							     <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -150,8 +149,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							    <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
+							    <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -162,8 +161,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							    <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
+							    <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -174,8 +173,8 @@
 							  <div class="card-body">
 							    <h5 class="card-title">Billie Joe</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							     <a href="#" class="btn btn-info mr-4">Visitar</a>
-							    <span class="badge badge-primary">Pequeno</span> <span class="badge badge-info">Macho</span>
+							    <a href="#" class="btn btn-danger mr-4">Visitar</a>
+							    <span class="badge badge-warning">Pequeno</span> <span class="badge badge-danger">Macho</span>
 
 							  </div>
 							</div><!-- card -->
@@ -203,11 +202,7 @@
 	    		</div>
 	    	</section>
 	</main> <!-- box fixed --> 
-	<footer id="footer" class="text-center bg-danger text-white">
-		<div class="container">
-			<p class="lead">MeAudota - 2020</p>
-		</div>
-	</footer>
+	
     
 
 <?php require_once 'includes/footer.php';?>
