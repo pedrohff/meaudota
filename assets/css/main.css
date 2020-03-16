@@ -6,7 +6,7 @@
 
 body {
   background-image: url('../images/background.png');
-  background-position:  center center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -17,13 +17,12 @@ main {
 section#filtro {
   margin: 20px 0;
   padding: 20px;
-  -webkit-box-shadow: 3px 2px 9px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 3px 2px 9px 0px rgba(0,0,0,0.25);
-  box-shadow: 3px 2px 9px 0px rgba(0,0,0,0.25);
-  background: #ec1e1e ;
-
+  -webkit-box-shadow: 3px 2px 9px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 2px 9px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 2px 9px 0px rgba(0, 0, 0, 0.25);
+  background: #ec1e1e;
 }
-section#filtro input[type='radio']{
+section#filtro input[type='radio'] {
   width: 20px;
   height: 20px;
 }
@@ -42,19 +41,18 @@ footer#footer {
   background: #ccc;
   padding: 5px;
   text-align: center;
-  bottom: 0;
-  left:0;
+  width: 100%;
 }
 footer#footer p .lead {
   line-height: 5px;
 }
-section#anuncios .container{
+section#anuncios .container {
   margin: 0 auto;
 }
 section#anuncios .card {
-  -webkit-box-shadow: 3px 2px 9px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 3px 2px 9px 0px rgba(0,0,0,0.25);
-  box-shadow: 3px 2px 9px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 3px 2px 9px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 2px 9px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 2px 9px 0px rgba(0, 0, 0, 0.25);
 }
 #navegacao {
   width: 100%;
@@ -72,18 +70,39 @@ section#anuncios .card {
 /*LOGIN */
 
 section#login {
-  margin-top: 86px;
-  background: #ccc;
-  height: 100vh;
-  width: 100%;
-
+  margin-top: 100px;
+  height: 100%;
+  margin-bottom: 30px;
+}
+section#login form {
+  font-size: 20px;
+  color: #fff;
+  background: #ffc107;
+  height: auto;
+  padding: 30px;
+  margin: 0 auto !important;
+}
+section#login .form-group div {
+  margin: 20px 0;
+}
+section#login .form-group div label {
+  text-transform: uppercase;
+}
+section#login input[type='email'],
+section#login input[type='password'] {
+  border: none;
+}
+.form-control:focus,
+.form-control:hover,
+.form-control:active {
+  outline: none !important;
 }
 
 /*LOGIN FIM*/
 
 /*media queries*/
-@media only screen and (max-width: 768px){
-  #anuncios .row .centraliza .card{
+@media only screen and (max-width: 768px) {
+  #anuncios .row .centraliza .card {
     margin: 0 auto;
   }
   #navegacao nav ul li a {
@@ -93,5 +112,4 @@ section#login {
   #navegacao nav {
     width: 120px;
   }
-
 }

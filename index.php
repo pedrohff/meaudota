@@ -1,3 +1,4 @@
+
 <?php require_once 'includes/header.php';?>
 
 	<main>
@@ -7,9 +8,9 @@
 						<div class="col-md-6 mb-3 text-center">
 							<h2>Caracteristicas do seu aumigo(a) </h2>
 							<form class="form-inline mb-3 justify-content-around">
-								<h4>Porte:</h4> 
-								
-								
+								<h4>Porte:</h4>
+
+
 								<div class="form-check form-check-inline">
 							  		<input class="form-check-input" type="radio" name="pequeno" id="pequeno" value="pequeno">
 								  	<label class="form-check-label" for="pequeno">Pequeno</label>
@@ -28,7 +29,7 @@
 								</div>
 							</form>
 							<form class="form-inline justify-content-around">
-								<h4>Sexo:</h4> 
+								<h4>Sexo:</h4>
 								<div class="form-check form-check-inline">
 							  		<input class="form-check-input" type="radio" name="femea" id="femea" value="pequeno">
 								  	<label class="form-check-label" for="femea">Fêmea</label>
@@ -63,7 +64,7 @@
 						</div>
 					</div><!--row-->
 				</div> <!-- container -->
-			</section><!-- SECTION: FILTRO --> 
+			</section><!-- SECTION: FILTRO -->
 	    	<section id="anuncios" class="mt-5">
 	    		<div class="container">
 	    			<div class="row justify-content-between">
@@ -103,7 +104,7 @@
 							  </div>
 							</div><!-- card -->
 	    				</div><!-- col-md-4-->
-	    			</div><!-- row--> 
+	    			</div><!-- row-->
 	    			<div class="row justify-content-between">
 	    				<div class="col-lg-4 col-md-6 col-sm-12 mb-4 centraliza">
 	    					<div class="card">
@@ -181,9 +182,9 @@
 	    				</div><!-- col-md-4-->
 	    			</div><!-- row-->
 
-	    			
+
 	    		</div>
-	    	</section> <!-- cards --> 
+	    	</section> <!-- cards -->
 	    	<section id="navegacao" class="mt-3 mb-4">
 	    		<div class="container">
 					<nav aria-label="Page navigation" class="mx-auto">
@@ -201,8 +202,8 @@
 					</nav>
 	    		</div>
 	    	</section>
-	</main> <!-- box fixed --> 
-	
-    
+	</main> <!-- box fixed -->
+
+
 
 <?php require_once 'includes/footer.php';?>
