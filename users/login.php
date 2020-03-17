@@ -4,7 +4,7 @@ if (!isset($_SESSION)) {
 }
 $_SESSION['id'] = session_id();
 
-$pdo = new PDO('mysql:dbname=login_teste;host=localhost', 'root', 'root');
+$pdo = new PDO('mysql:dbname=login_teste;host=localhost', 'root', '');
 
 if (isset($_POST['acao']) && !empty($_POST['senha'])) {
     $senha = hash('sha256', addslashes($_POST['senha']));

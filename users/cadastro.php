@@ -3,7 +3,7 @@ if (!isset($_SESSION)) {
     session_start();
 }
 $showAlert = false;
-$pdo = new PDO('mysql:dbname=login_teste;host=localhost', 'root', 'root');
+$pdo = new PDO('mysql:dbname=login_teste;host=localhost', 'root', '');
 
 if (isset($_POST['acao']) && !empty($_POST['senha'])) {
     if (strlen($_POST['senha']) < 6) {

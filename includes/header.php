@@ -34,7 +34,6 @@ if (!isset($_SESSION)) {
               <ul class="navbar-nav justify-content-end">
                   <?php
 if (isset($_SESSION['nome'])) {
-  echo "hmm";
     ?>
                     <li class="nav-item ">
                        <a class="nav-link" href="#"><?php echo 'Olá, ' . $_SESSION['nome']; ?></a>
@@ -44,7 +43,6 @@ if (isset($_SESSION['nome'])) {
                     </li>
                     <?php
 } else {
-  echo "noo";
     ?>
                   <li class="nav-item ">
                     <a class="nav-link" href="users/cadastro.php">Criar Conta</a>
