@@ -2,7 +2,6 @@
 if (!isset($_SESSION)) {
     session_start();
 }
-$_SESSION['id'] = session_id();
 $showAlert = false;
 $pdo = new PDO('mysql:dbname=login_teste;host=localhost', 'root', '');
 
@@ -53,10 +52,10 @@ if (isset($_POST['acao']) && !empty($_POST['senha'])) {
 
   </head>
   <body>
-    <header>
+  <header>
       <nav class="navbar navbar-expand-lg navbar-dark text-white bg-danger fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">MeAudota!</a>
+          <a class="navbar-brand" href="../index.php">MeAudota!</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -71,7 +70,7 @@ if (isset($_POST['acao']) && !empty($_POST['senha'])) {
             </ul>
               <ul class="navbar-nav justify-content-end">
                   <li class="nav-item ">
-                    <a class="nav-link" href="#" class='disabled' >Criar Conta</a>
+                    <a class="nav-link" href="cadastro.php">Criar Conta</a>
                   </li>
                   <li class="nav-item ">
                     <a class="nav-link" href="login.php">Entrar</a>
@@ -89,13 +88,13 @@ if (isset($_POST['acao']) && !empty($_POST['senha'])) {
                 <?php
 if ($showAlert) {
     ?>
-                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            <?php echo $message; ?>
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <?php echo $message; ?>
+                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                              <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                <?php
+                             </button>
+                         </div>
+                 <?php
 }
 ?>
 
@@ -220,6 +219,7 @@ if ($showAlert) {
     </script>
   <script>
    const alertDiv = document.querySelector(".alert");
+   console.log(alertDiv);
    setTimeout(() => {
         alertDiv.style.display = 'none';
    }, 5000);

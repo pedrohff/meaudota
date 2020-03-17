@@ -32,31 +32,29 @@ if (!isset($_SESSION)) {
               </li>
             </ul>
               <ul class="navbar-nav justify-content-end">
-
                   <?php
-if (isset($_SESSION['id'])) {
+if (isset($_SESSION['nome'])) {
     ?>
-  <li class="nav-item ">
-                       <a class="nav-link disabled" href="#"><?php echo 'Olá, ' . $_SESSION['nome']; ?></a>
+                    <li class="nav-item ">
+                       <a class="nav-link" href="#"><?php echo 'Olá, ' . $_SESSION['nome']; ?></a>
                     </li>
                     <li class="nav-item ">
                        <a class="nav-link" href="users/logout.php">Sair</a>
                     </li>
-  <?php
+                    <?php
 } else {
     ?>
-    <li class="nav-item ">
+                  <li class="nav-item ">
                     <a class="nav-link" href="users/cadastro.php">Criar Conta</a>
                   </li>
-    <li class="nav-item ">
-                       <a class="nav-link" href="users/login.php">Entrar</a>
-                    </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="users/login.php">Entrar</a>
+                  </li>
                   <?php
 }
 ?>
-
               </ul>
-          </div>
+          </div> <!--colapse -->
         </div>
       </nav>
     </header>
